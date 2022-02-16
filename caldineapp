@@ -1,0 +1,15 @@
+#!/bin/bash
+#This is a Caldine Fashion Script to welcome customers on the online app
+
+echo "Welcome To Caldine Fashion"
+echo "Please Enter Your User Name"
+read username
+echo "Please enter Your Password"
+read Password
+if (( $Password == 12345 ))
+then 
+echo "You have succesfully login in on the" `date`
+else
+echo "Sorry your password is wrong try again or contact the branch"
+fi 
+
