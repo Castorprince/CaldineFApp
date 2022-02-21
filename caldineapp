@@ -1,6 +1,7 @@
 #!/bin/bash
 #This is a Caldine Fashion Script to welcome customers on the online app
 #Please only run this script if you have sudo previllages
+#Please sure before editing this code you are in the sudoers list 
 
 echo "Welcome To Caldine Fashion"
 echo "Pleasee enter your department"
