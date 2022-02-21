@@ -3,14 +3,18 @@
 #Please only run this script if you have sudo previllages
 
 echo "Welcome To Caldine Fashion"
-echo "Please Enter Your User Name"
+echo "Pleasee enter your department"
+read department
+echo "please enter your batch number"
+read batch number
+echo "Please Enter Your username"
 read username
 echo "Please enter Your Password"
 read Password
 if (( $Password == 12345 ))
 then 
-echo "You have succesfully login in on the" `date`
+echo "You have succesfully login on the" `date`
 else
-echo "Sorry your password is wrong try again or contact the branch"
+echo "you entered the wrong password"
 fi 
 
